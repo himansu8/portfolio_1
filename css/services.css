@@ -1,0 +1,147 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.side_nav {
+    position: fixed;
+    background-color: #f0f0f0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(2, 40, 27);
+}
+
+.profile_img>img {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.profile_img {
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+}
+
+.name1 {
+    padding: 0px;
+    text-align: center;
+    /* margin-top: -10px; */
+    margin: 15px 0px;
+    color: white;
+}
+
+.nav_option {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav_option>ul>li {
+    margin: 12px;
+    padding: 4px;
+    color: white;
+
+}
+
+.nav_option>ul {
+    list-style: none;
+
+}
+.nav_option>ul>li:hover {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(70, 68, 68);
+
+}
+.nav_option>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+.nav_footer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+section {
+    margin-left: 20vw;
+}
+
+.hero_section2 {
+    background-color: rgb(4, 46, 31);
+    position: abs;
+    text-align: center;
+    color: #fff;
+    height: 122vh;
+
+}
+
+.hero_section2>h1 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    color: #333;
+  padding: 20px;
+}
+
+.hero_section2>h1 b {
+    position: relative;
+    display: inline-block;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    color: #fff; /* Set the text color inside the 3D effect */
+}
+
+h1 b::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #4CAF50; /* Set the shadow color */
+    transform: translate3d(-5px, -5px, 0);
+    z-index: -1;
+}
+
+.about1 {
+    display: flex;
+    margin-top: 0px;
+}
+
+
+
+.services_section {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 08.1);
+}
+
+.service h2 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+.service:hover {
+    transform: scale(1.05);
+    background-color: #3498db;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.service:hover p {
+    color: #fff;
+}

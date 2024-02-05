@@ -174,45 +174,54 @@ video {
 }
 
 .nav_option>ul>li>a {
+    text-decoration: none;
     color: white;
-    
+
+
 }
-.hero_section2{
+
+/* .hero_section2 {
     background-color: rgb(4, 46, 31);
     position: relative;
     text-align: center;
     color: #fff;
     height: 100vh;
-    
+
 }
 
-.lines{
+.lines {
     display: flex;
     position: absolute;
 }
-.line1{
+
+.line1 {
     border: 1px solid black;
     height: 100vh;
     width: 20vw;
 }
-.line2{
+
+.line2 {
     border: 1px solid black;
     height: 100vh;
     width: 20vw;
 }
-.line3{
+
+.line3 {
     border: 1px solid black;
     height: 100vh;
     width: 20vw;
 }
-.line4{
+
+.line4 {
     border: 1px solid black;
     height: 100vh;
     width: 20vw;
 }
+
 .about {
     position: absolute;
-padding: 5px;
+    padding: 5px;
     /* font-size: 2em;  */
-   
+
 }
+*/
