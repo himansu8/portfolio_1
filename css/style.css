@@ -160,18 +160,18 @@ video {
 .resume_btn:hover {
     cursor: pointer;
     background-color: rgb(69, 69, 242);
-    ;
     border: 1px solid black;
 }
 
 .resume_btn {
-    width: 120px;
+    width: 130px;
     margin-top: 30px;
     padding: 4px 4px;
     background-color: #f0f0f0;
     border-radius: 12px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 .nav_option>ul>li>a {
     text-decoration: none;
@@ -180,48 +180,32 @@ video {
 
 }
 
-/* .hero_section2 {
-    background-color: rgb(4, 46, 31);
-    position: relative;
-    text-align: center;
-    color: #fff;
-    height: 100vh;
-
-}
-
-.lines {
+.social-icons {
     display: flex;
-    position: absolute;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+   
 }
 
-.line1 {
-    border: 1px solid black;
-    height: 100vh;
-    width: 20vw;
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    background-color: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.3s ease;
 }
 
-.line2 {
-    border: 1px solid black;
-    height: 100vh;
-    width: 20vw;
+.social-icons a:hover {
+    background-color: #4267B2; /* Change to the desired hover color for Facebook */
 }
 
-.line3 {
-    border: 1px solid black;
-    height: 100vh;
-    width: 20vw;
+.social-icons i {
+    font-size: 20px;
+    color: #fff;
 }
-
-.line4 {
-    border: 1px solid black;
-    height: 100vh;
-    width: 20vw;
-}
-
-.about {
-    position: absolute;
-    padding: 5px;
-    /* font-size: 2em;  */
-
-}
-*/
