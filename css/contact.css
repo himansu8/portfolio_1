@@ -50,6 +50,7 @@
     list-style: none;
 
 }
+
 .nav_option>ul>li:hover {
     cursor: pointer;
     border: 1px solid white;
@@ -57,10 +58,12 @@
     background-color: rgb(70, 68, 68);
 
 }
+
 .nav_option>ul>li>a {
     text-decoration: none;
     color: white;
 }
+
 .nav_footer {
     margin-top: 90px;
     padding-top: 10px;
@@ -73,30 +76,31 @@ section {
     margin-left: 20vw;
 }
 
-.hero_section2 {
+.hero_section9 {
     background-color: rgb(4, 46, 31);
-    position: abs;
+    position: relative;
     text-align: center;
     color: #fff;
-    height: 130vh;
+    height: 110vh;
 
 }
 
-.hero_section2>h1 {
+.hero_section9>h1 {
     font-family: 'Arial', sans-serif;
     text-align: center;
     font-size: 50px;
     position: relative;
     color: #333;
-  padding: 20px;
+    padding: 20px;
 }
 
-.hero_section2>h1 b {
+.hero_section9>h1 b {
     position: relative;
     display: inline-block;
     transform-style: preserve-3d;
     perspective: 1000px;
-    color: #fff; /* Set the text color inside the 3D effect */
+    color: #fff;
+    /* Set the text color inside the 3D effect */
 }
 
 h1 b::before {
@@ -104,46 +108,115 @@ h1 b::before {
     position: absolute;
     top: 0;
     left: 0;
-    color: #4CAF50; /* Set the shadow color */
+    color: #4CAF50;
+    /* Set the shadow color */
     transform: translate3d(-5px, -5px, 0);
     z-index: -1;
 }
 
-.about1 {
+
+
+.contact_section {
     display: flex;
-    margin-top: 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 10px;
+    padding: 40px;
 }
 
+.left-content,
+.right-content {
+    flex: 1;
+}
 
-
-.services_section {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
+.left-content {
     padding: 20px;
+    border-radius: 10px;
 }
 
-.service {
-    width: 30%;
-    background-color: #fff;
+.right-content {
+    margin-top: 100px;
     padding: 20px;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 08.1);
+    border-radius: 10px;
 }
 
-.service h2 {
-    color: #333;
+.contact-title {
+    font-size: 30px;
+    color: #f509d2;
+    margin-bottom: 20px;
 }
 
-.service p {
-    color: #666;
+.form-field {
+    margin-bottom: 20px;
 }
-.service:hover {
-    transform: scale(1.05);
-    background-color: #3498db;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2bf30c;
+
 }
-.service:hover p {
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-field textarea {
+    resize: vertical;
+}
+
+.f-button button {
+    padding: 12px 24px;
+    background-color: #007bff;
     color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.f-button button:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+}
+
+.right-content .contactByMe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.right-content h4 {
+    margin: 0;
+    color: #2bf30c;
+}
+
+.right-content p {
+    font-size: 18px;
+    color: #f50dd2;
+}
+
+.contactByMe svg {
+    width: 50px;
+    height: 70px;
+    fill: #007bff;
+}
+
+.left-content2 {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.right-content2 {
+
+    margin-left: 50px;
 }
